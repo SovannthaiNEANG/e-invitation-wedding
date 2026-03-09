@@ -74,8 +74,8 @@ function submitRSVP() {
   padding: 120px 20px;
 
   background:
-    linear-gradient(rgba(255, 248, 242, 0.95), rgba(255, 248, 242, 0.95)),
-    url("/images/flowers-bg.jpg");
+    /* linear-gradient(rgba(255, 248, 242, 0.95), rgba(255, 248, 242, 0.95)), */
+    url("/img/gallery2.jpg");
 
   background-size: cover;
   background-position: center;
@@ -89,11 +89,8 @@ function submitRSVP() {
 
 .rsvp-card {
   padding: 30px;
-
   border-radius: 24px;
-
   background: rgba(255, 255, 255, 0.9);
-
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
 }
 

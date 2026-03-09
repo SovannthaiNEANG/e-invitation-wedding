@@ -6,7 +6,7 @@ function toggle(){
 
 if(!audio){
 
-audio = new Audio('/music/wedding.mp3')
+audio = new Audio('/music/mp3.webm')
 audio.loop = true
 
 }
