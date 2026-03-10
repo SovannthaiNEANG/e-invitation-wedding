@@ -7,8 +7,8 @@
 </template>
 <style scoped>
 .default-layout {
-  background: url("/img/hero.png");
+  /* background: url("/img/hero.png");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 </style>

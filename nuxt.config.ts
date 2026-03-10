@@ -23,6 +23,7 @@ export default defineNuxtConfig({
         families: {
           "IBM+Plex+Sans": [400, 500, 600, 700],
           "Manrope": [400, 500, 600, 700],
+          "Pacifico": [400, 500, 600, 700],
         },
       },
     ],
@@ -46,7 +47,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          // additionalData: '@use "@/assets/scss/_global.scss" as *;',
+          additionalData: '@use "@/assets/scss/_global.scss" as *;',
         },
       },
     },

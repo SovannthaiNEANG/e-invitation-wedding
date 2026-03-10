@@ -8,7 +8,9 @@
     <span></span>
 
   </div>
-  <EnvelopeOpen/>
+<EnvelopeOpen/>
+
+<!-- <WeddingCover/> -->
 
 <HeroSection/>
 
@@ -23,6 +25,8 @@
 <LocationSection/>
 
 <RSVPSection/>
+
+<PaymentSection/>
 
 <MusicPlayer/>
 </template>

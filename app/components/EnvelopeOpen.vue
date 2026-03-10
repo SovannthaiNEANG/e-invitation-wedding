@@ -11,9 +11,9 @@ function openInvitation() {
 <template>
   <div v-if="!opened" class="envelope-page">
     <div class="envelope-card">
-      <h2>You Are Invited</h2>
-      <p>Sovannthai & Soheng Wedding</p>
-      <v-btn color="#C8A96A" size="large" rounded @click="openInvitation">
+      <h2 class="text-xxl">You Are Invited</h2>
+      <p class="text-lg">Sovannthai & Soheng Wedding</p>
+      <v-btn color="#C8A96A" size="large" class="mt-4" rounded @click="openInvitation">
         Open Invitation
       </v-btn>
     </div>

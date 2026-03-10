@@ -86,7 +86,6 @@
 /* title */
 
 .section-title {
-  font-family: "Playfair Display";
   font-size: 42px;
   margin-bottom: 60px;
 }
