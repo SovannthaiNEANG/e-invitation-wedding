@@ -55,7 +55,7 @@ export default defineNuxtConfig({
   css: ["@mdi/font/css/materialdesignicons.css", 'vuetify/styles', '~/assets/main.scss'],
   app: {
     head: {
-       title: "Innovation Website",
+       title: "Sovannthai&Soheng Wedding Invitation",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
