@@ -6,9 +6,4 @@
   </v-app>
 </template>
 <style scoped>
-.default-layout {
-  /* background: url("/img/hero.png");
-  background-size: cover;
-  background-position: center; */
-}
 </style>
