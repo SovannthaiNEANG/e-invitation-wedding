@@ -41,7 +41,7 @@ onMounted(() => {
 
 <v-container class="text-center">
 
-<h2 class="countdown-title">
+<h2 class="countdown-title text-xxxl">
 Our Wedding Day
 </h2>
 
@@ -110,7 +110,6 @@ background-position:center;
 
 .countdown-title{
 
-font-family:'Playfair Display';
 font-size:42px;
 
 }

@@ -4,13 +4,13 @@
       class="text-center fill-height d-flex align-center justify-center"
     >
       <div>
-        <h1 class="hero-title">Sovannthai & Soheng</h1>
+        <h1 class="text-xxxl">Sovannthai & Soheng</h1>
 
         <p class="hero-subtitle">We Are Getting Married</p>
 
         <p class="hero-date">19th December 2026</p>
 
-        <v-btn color="#C8A96A" size="large" rounded> Open Invitation </v-btn>
+        <v-btn color="#C8A96A" size="large" rounded class="mt-4"> Open Invitation </v-btn>
       </div>
     </v-container>
   </section>
@@ -31,8 +31,8 @@
 }
 
 .hero-title {
-  font-family: "Playfair Display";
-  font-size: 64px;
+  /* font-family: "Pacifico"; */
+  font-size: 15vh;
 }
 
 .hero-subtitle {
