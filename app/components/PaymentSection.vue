@@ -37,7 +37,7 @@
       rgba(255,255,255,0.9),
       rgba(255,255,255,0.9)
     ),
-    url('/images/payment-bg.jpg');
+    url('/img/payment-bg.jpg');
   background-size: cover;
 }
 
