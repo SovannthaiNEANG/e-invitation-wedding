@@ -1,44 +1,51 @@
 <template>
-  <v-container class="payment-section text-center">
-    <v-row justify="center">
-      <v-col cols="12" md="8">
-        <h2 class="section-title">Wedding Gift</h2>
+  <section class="payment-section text-center">
 
-        <p class="section-subtitle">
-          Your presence is the greatest gift.  
-          If you wish to bless us with a gift, you can scan the QR code below.
-        </p>
-
-        <v-card class="payment-card pa-6" elevation="6">
-          <v-img
-            src="/img/aba.jpg"
-            max-width="260"
-            class="mx-auto qr-image"
-          />
-
-          <div class="mt-4">
-            <h3 class="account-name">Sovannthai & Partner</h3>
-            <p class="bank-name">KHQR Payment</p>
-          </div>
-
-          <p class="thank-text mt-4">
-            Thank you for your love and support ❤️
+    <v-container class="text-center">
+      <v-row justify="center">
+        <v-col cols="12" md="8">
+          <h2 class="section-title">Wedding Gift</h2>
+  
+          <p class="section-subtitle">
+            Your presence is the greatest gift.  
+            If you wish to bless us with a gift, you can scan the QR code below.
           </p>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-container>
+  
+          <v-card class="payment-card pa-6" elevation="6">
+            <div class="d-flex">
+              <v-img
+                src="/img/aba.jpg"
+                max-width="260"
+                class="mx-auto qr-image"
+              />
+              <v-img
+                src="/img/ac.jpg"
+                max-width="260"
+                class="mx-auto qr-image"
+              />
+            </div>
+  
+            <div class="mt-4">
+              <h3 class="account-name">Sovannthai & Partner</h3>
+              <p class="bank-name">KHQR Payment</p>
+            </div>
+  
+            <p class="thank-text mt-4">
+              Thank you for your love and support ❤️
+            </p>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </section>
 </template>
 
 <style scoped>
 .payment-section {
-  padding: 120px 20px;
-  background: linear-gradient(
-      rgba(255,255,255,0.9),
-      rgba(255,255,255,0.9)
-    ),
-    url('/img/payment-bg.jpg');
+  background: url('/img/payment-bg.png');
   background-size: cover;
+  background-position: center;
+  padding: 0px;
 }
 
 .section-title {
